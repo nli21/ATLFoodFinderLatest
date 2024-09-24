@@ -27,7 +27,7 @@ def registerPage(request):
 
 def loginPage(request):
     if request.user.is_authenticated:
-        return redirect('login')
+        return redirect('home')
     else:
         if request.method == 'POST':
             username = request.POST.get('username')
