@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, button, label {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f1f1f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search for Restaurants</h1>
+
+        <!-- Restaurant search form -->
+        <form method="GET" action="{% url 'search_restaurants' %}">
+            <input type="text" name="query" placeholder="Restaurant Name or Cuisine" required>
+            <input type="text" name="location" placeholder="Location (Lat,Lng)" required>
+            <input type="number" name="radius" placeholder="Search Radius (in meters)" value="5000">
+            <input type="number" name="rating" placeholder="Minimum Rating" step="0.1" min="0" max="5">
+            <label for="open_now">Open Now?</label>
+            <input type="checkbox" name="open_now" value="true">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Display the results -->
+        {% if restaurants %}
+            <h2>Search Results</h2>
+            <ul>
+            {% for restaurant in restaurants %}
+                <li>
+                    <strong>{{ restaurant.name }}</strong><br>
+                    Rating: {{ restaurant.rating }}<br>
+                    Address: {{ restaurant.vicinity }}<br>
+                    Distance: {{ restaurant.distance }} meters
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No results found. Please try a different search.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
