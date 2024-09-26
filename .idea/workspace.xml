@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3e6b9e-5c20-4d62-9f60-3d4ce45ca0de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/templates/distance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/templates/geocoding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/restaurant_search/views.py" afterDir="false" />
+    <list default="true" id="cf3e6b9e-5c20-4d62-9f60-3d4ce45ca0de" name="Changes" comment="Geolocation">
+      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,5 +129,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Geolocation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Geolocation" />
   </component>
 </project>
