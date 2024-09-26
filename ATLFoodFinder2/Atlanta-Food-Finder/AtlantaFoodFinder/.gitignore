@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.pkl
+db.sqlite3
+
+# Django Migrations
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Secrets and environment variables
+*.env
+.env
+*.secret
+
+# Static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# IDE specific files (Optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS-specific files
+.DS_Store
