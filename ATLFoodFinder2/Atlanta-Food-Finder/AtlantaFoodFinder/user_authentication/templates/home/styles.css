@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding-top: 80px; /* Adjust for fixed navbar */
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #f1f1f1; /* Set the background color of the sidebar */
+    padding: 30px;
+    width: 220px;
+    position: fixed;
+    top: 70px; /* This should match the height of the top bar */
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the sidebar is on top of other elements */
+}
+
+.filter-heading {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align buttons to the left */
+}
+
+.filter-group button {
+    width: auto; /* Buttons are no longer full width */
+    margin-bottom: 10px; /* Space between buttons */
+    padding-left: 20px; /* Padding for a balanced look */
+    padding-right: 20px; /* Padding for a balanced look */
+}
+
+.content {
+    margin-left: 250px; /* Adjusted to match the sidebar width */
+    padding-top: 20px;
+}
+
+.suggestion {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-block {
+    margin-bottom: 10px;
+}
