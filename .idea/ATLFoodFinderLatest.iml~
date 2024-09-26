@@ -16,7 +16,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (AtlantaFoodFinder) (3)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
