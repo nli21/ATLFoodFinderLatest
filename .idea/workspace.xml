@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5f4cdc-ba47-43dc-9cf1-bb1be086bc1f" name="Changes" comment="included the necessary .gitignore file">
-      <change afterPath="$PROJECT_DIR$/.idea/ATLFoodFinderLatest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/Polls/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ATLFoodFinder2/Atlanta-Food-Finder/AtlantaFoodFinder/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "camtienn-zip"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;camtienn-zip&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nli21/ATLFoodFinderLatest.git",
-    "accountId": "58c97c67-4469-4001-b34d-2c06ea6a6b67"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nli21/ATLFoodFinderLatest.git&quot;,
+    &quot;accountId&quot;: &quot;58c97c67-4469-4001-b34d-2c06ea6a6b67&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -52,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging camtien",
+    "git-widget-placeholder": "camtien",
     "last_opened_file_path": "C:/Users/tecol/OneDrive/Desktop/CS1332-checkstyle.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
